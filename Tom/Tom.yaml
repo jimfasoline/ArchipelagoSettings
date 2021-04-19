@@ -1,0 +1,385 @@
+description: Tom
+name: Tom
+glitches_required:
+  none: 100
+  minor_glitches: 0
+  overworld_glitches: 0
+  no_logic: 0
+dark_room_logic:
+  lamp: 100
+  torches: 0
+  none: 0
+restrict_dungeon_item_on_boss:
+  on: 0
+  off: 50
+meta_ignore:
+  mode:
+    - inverted
+  retro:
+    - on
+  weapons:
+    - swordless
+map_shuffle:
+  on: 0
+  off: 100
+compass_shuffle:
+  on: 0
+  off: 100
+smallkey_shuffle:
+  on: 0
+  universal: 0
+  off: 100
+bigkey_shuffle:
+  on: 0
+  off: 100
+local_keys:
+  on: 0
+  off: 100
+dungeon_items:
+  mc: 0
+  none: 50
+  mcsb: 0
+  lmcsb: 0
+  ub: 0
+dungeon_counters:
+  on: 50
+  pickup: 0
+  default: 0
+  off: 0
+accessibility:
+  items: 0
+  locations: 100
+  none: 0
+progressive:
+  on: 100
+  off: 0
+  random: 0
+entrance_shuffle:
+  none: 100
+  dungeonssimple: 7
+  dungeonsfull: 0
+  simple: 0
+  restricted: 0
+  full: 0
+  crossed: 0
+  insanity: 0
+goals:
+  ganon: 0
+  fast_ganon: 8
+  dungeons: 0
+  pedestal: 25
+  ganon_pedestal: 2
+  triforce_hunt: 50
+  local_triforce_hunt: 8
+  ganon_triforce_hunt: 0
+  local_ganon_triforce_hunt: 0
+  ice_rod_hunt: 15
+triforce_pieces_mode:
+  extra: 50
+  percentage: 0
+  available: 0
+triforce_pieces_extra:
+  0: 0
+  5: 50
+  10: 50
+  15: 0
+  20: 0
+triforce_pieces_percentage:
+  100: 0
+  150: 0
+  200: 0
+triforce_pieces_available:
+  25: 0
+  30: 0
+  40: 0
+  50: 0
+triforce_pieces_required:
+  15: 0
+  20: 95
+  30: 2
+  40: 0
+  50: 0
+tower_open:
+  0: 80
+  1: 70
+  2: 60
+  3: 50
+  4: 40
+  5: 0
+  6: 0
+  7: 0
+  random: 0
+ganon_open:
+  0: 80
+  1: 70
+  2: 60
+  3: 50
+  4: 40
+  5: 0
+  6: 0
+  7: 0
+  random: 0
+mode:
+  standard: 50
+  open: 50
+  inverted: 0
+retro:
+  on: 0
+  off: 100
+hints:
+  on: 100
+  off: 0
+weapons:
+  randomized: 10
+  assured: 100
+  vanilla: 0
+  swordless: 0
+item_pool:
+  easy: 15
+  normal: 85
+  hard: 0
+  expert: 0
+item_functionality:
+  easy: 0
+  normal: 50
+  hard: 0
+  expert: 0
+progression_balancing:
+  on: 50
+  off: 0
+tile_shuffle:
+  on: 0
+  off: 50
+misery_mire_medallion:
+  random: 50
+  ether: 0
+  bombos: 0
+  quake: 0
+turtle_rock_medallion:
+  random: 50
+  ether: 0
+  bombos: 0
+  quake: 0
+boss_shuffle:
+  none: 50
+  simple: 0
+  full: 0
+  random: 0
+  singularity: 0
+enemy_shuffle:
+  on: 0
+  off: 50
+killable_thieves:
+  on: 100
+  off: 0
+bush_shuffle:
+  on: 0
+  off: 50
+enemy_damage:
+  default: 50
+  shuffled: 0
+  random: 0
+enemy_health:
+  default: 50
+  easy: 0
+  hard: 0
+  expert: 0
+pot_shuffle:
+  on: 0
+  off: 50
+beemizer:
+  0: 50
+  1: 0
+  2: 0
+  3: 0
+  4: 0
+shop_shuffle_slots:
+  0: 50
+  5: 0
+  15: 0
+  30: 50
+shop_shuffle:
+  none: 50
+  i: 0
+  p: 0
+  u: 0
+  ip: 0
+  uip: 0
+shuffle_prizes:
+  none: 0
+  g: 50
+  b: 0
+  bg: 0
+timer:
+  none: 50
+  timed: 0
+  timed_ohko: 0
+  ohko: 0
+  timed_countdown: 0
+  display: 0
+countdown_start_time:
+  0: 0
+  10: 50
+  20: 0
+  30: 0
+  60: 0
+red_clock_time:
+  1: 0
+  '-2': 50
+blue_clock_time:
+  1: 0
+  2: 50
+green_clock_time:
+  4: 50
+  10: 0
+  15: 0
+glitch_boots:
+  on: 50
+  off: 0
+linked_options:
+  - name: crosskeys
+    options:
+      entrance_shuffle: crossed
+      bigkey_shuffle: true
+      compass_shuffle: true
+      map_shuffle: true
+      smallkey_shuffle: true
+    percentage: 0
+  - name: localcrosskeys
+    options:
+      entrance_shuffle: crossed
+      bigkey_shuffle: true
+      compass_shuffle: true
+      map_shuffle: true
+      smallkey_shuffle: true
+      local_items:
+        - Small Keys
+        - Big Keys
+    percentage: 0
+  - name: enemizer
+    options:
+      boss_shuffle:
+        simple: 1
+        full: 1
+        random: 1
+        singularity: 1
+      enemy_damage:
+        shuffled: 1
+        random: 1
+      enemy_health:
+        easy: 1
+        hard: 1
+        expert: 1
+    percentage: 0
+door_shuffle:
+  vanilla: 50
+  basic: 0
+  crossed: 0
+intensity:
+  1: 50
+  2: 0
+  3: 0
+  random: 0
+key_drop_shuffle:
+  on: 0
+  off: 50
+experimental:
+  on: 0
+  off: 50
+debug:
+  on: 0
+  off: 50
+rom:
+  random_sprite_on_event:
+    enabled:
+      on: 0
+      off: 1
+    on_hit:
+      on: 0
+      off: 1
+    on_enter:
+      on: 0
+      off: 1
+    on_exit:
+      on: 0
+      off: 1
+    on_slash:
+      on: 0
+      off: 1
+    on_item:
+      on: 0
+      off: 1
+    on_bonk:
+      on: 0
+      off: 1
+  sprite:
+    random: 89
+    Charizard: 11
+    Dragonite: 11
+  disablemusic:
+    on: 0
+    off: 100
+  quickswap:
+    on: 100
+    off: 0
+  menuspeed:
+    normal: 0
+    instant: 100
+    double: 0
+    triple: 0
+    quadruple: 0
+    half: 0
+  heartcolor:
+    red: 0
+    blue: 0
+    green: 0
+    yellow: 0
+    random: 100
+  heartbeep:
+    double: 0
+    normal: 0
+    half: 0
+    quarter: 0
+    off: 100
+  ow_palettes:
+    default: 1
+    random: 0
+    blackout: 0
+    grayscale: 0
+    negative: 0
+    classic: 0
+    dizzy: 0
+    sick: 0
+    puke: 0
+  uw_palettes:
+    default: 1
+    random: 0
+    blackout: 0
+    grayscale: 0
+    negative: 0
+    classic: 0
+    dizzy: 0
+    sick: 0
+    puke: 0
+  hud_palettes:
+    default: 1
+    random: 0
+    blackout: 0
+    grayscale: 0
+    negative: 0
+    classic: 0
+    dizzy: 0
+    sick: 0
+    puke: 0
+  sword_palettes:
+    default: 0
+    random: 25
+    blackout: 0
+    grayscale: 0
+    negative: 0
+    classic: 0
+    dizzy: 0
+    sick: 0
+    puke: 0
+startinventory:
+  Pegasus Boots: on
