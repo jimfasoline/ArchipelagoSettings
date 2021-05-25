@@ -26,15 +26,15 @@ compass_shuffle:
   on: 0
   off: 50
 smallkey_shuffle:
-  on: 10
+  on: 25
   universal: 5
-  off: 85
+  off: 65
 bigkey_shuffle:
-  on: 5
-  off: 95
+  on: 10
+  off: 90
 local_keys:
-  on: 0
-  off: 100
+  on: 50
+  off: 50
 dungeon_items:
   mc: 0
   none: 50
